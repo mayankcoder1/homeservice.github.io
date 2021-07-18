@@ -1,0 +1,84 @@
+
+*{
+    margin: 0x;
+    padding: 0x;
+    box-sizing: border-box;
+    font-family: 'New Tegomin', serif,cursive;
+    }
+    .container{
+        max-width: 80%;
+        
+        padding: 34px;
+        margin: auto;
+    
+    }
+    
+    .container h1{
+    text-align: center;
+    font-family: 'Crimson Text', serif,cursive;
+    font-size: 40px;
+    }
+        
+    
+    p{
+        font-size: 17px;
+        text-align: center;
+    font-family: 'Crimson Text', serif,cursive;
+    }
+      
+    input,textarea{
+        
+        border: 2px solid black;
+        border-radius: 6px;
+        outline:none;
+        font-size: 16px;
+        width: 80%;
+        margin: 11px 0px;
+        padding: 7px;
+    
+    }
+    form
+    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+    .btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border:2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    
+    }
+    .pic
+    {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;
+    }
+    .submit{
+        
+        color: seagreen;
+    }
+    .buttn {
+
+        padding: 20px;
+        display:block;
+        background-color: green;
+        color: white;
+        text-align:center;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        border-radius: 14px;
+        font-size: 20px;
+    
+    }
+    
+    
